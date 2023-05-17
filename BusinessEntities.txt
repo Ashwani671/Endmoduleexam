@@ -1,0 +1,68 @@
+Online Project Management System
+
+
+Business Entities:
+
+1. Employee
+	employeeid
+	employee firstname
+	employee lastname
+	employee address
+	employee contact_no.
+	employee department
+	employee records
+
+2.Project Managers
+	projectid
+	projectmgr firstname
+	projectmgr lastname
+	projectmgr address
+	projectmgr contact_no.
+	projectmgr duration
+	
+3.Delivery Managers
+	delivery managerid
+	delivery manager first_name
+	delivery manager last_name
+	delivery manager address
+	delivery manager contactno.
+	
+	
+4.Stakeholders
+	stakeholdersid
+	stakeholders name
+	stakeholders address
+	stakeholders contact no.
+	 
+5. Benefits
+	benefitid
+	employeeid
+	projectid
+	delivery managerid
+	benefit type
+	coverage details
+
+6.Project 
+	projectid
+	employee id
+	projectname
+	projectassigneddate
+
+7. Project status
+ 	projectid
+	employeeid
+	reviewdate
+	performance rating
+	reviewer name
+
+8. Employee records
+	employeeid
+	employeerecordid
+	recordtype
+	recorddetails
+
+
+
+
+
+	

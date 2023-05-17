@@ -1,0 +1,63 @@
+Software Requirements Specification (SRS) Document: Online Project Management System
+
+1. Introduction
+   1.1 Purpose
+   The purpose of this document is to provide a detailed description of the requirements for the Online Project Management System. This system will help employees,project managers,delivery managers and stake holders to update about executions of projects going on in the organisation. All beneficiaries will be able to manage resources,time effectively. It outlines the functional and non-functional requirements, constraints, and interfaces of the system.
+
+   1.2 Scope
+   The Online ProjectManagement System is a web-based application that allows organizations to manage project information, track ongoing projects, handle requirement requests, and generate reports for effective deployment. The system will provide an efficient and centralized solution for managing Online Project management-related tasks.
+
+2. Functional Requirements
+   2.1 Online Project Information Management
+      - Administrators should be able to add, update, and delete project records.
+      - Each employee record should include details such as name, employee ID, contact information, designation, and department.
+      - The system should store and display all the details regarding project such as its assigned date and team, the deployment details of project and other relate information.
+
+   2.2 Project Status
+      - All the employees should be able to meet the underlying deadlines of the project as per daily assigning.
+      - The system should calculate the total working hours and maintain a record of progress of the ongoing project in a positive manner.
+
+   2.3 Manager Tasks and methods
+      - Managers should be able to plan and assign the projects as per the organization regulations.
+      - The system should allow managers to review the status of the ongoing project as per the requirement specifications.
+      - The system should allow managers to  maintain a record of project details,assigned employees information, deadlines and other information related to it.
+
+   2.4 Project Reports
+      - The system should generate reports on project development phases and other relevant information.
+      - Reports may include employee performance, attendance summary, leave balance, etc.
+
+   2.5 Notifications and Reminders
+      - The system should send notifications and reminders to employees,stakeholders for pending requests, upcoming meetings, or other important events.
+      - Notifications can be delivered via email, SMS, or through the system's user interface.
+
+3. Non-functional Requirements
+   3.1 Security
+      - Project data should be securely stored and accessible only to authorized personnel.
+      - User authentication and access control mechanisms should be implemented.
+      - Sensitive information such as passwords should be stored using encryption.
+
+   3.2 Performance
+      - The system should handle concurrent user requests without significant performance degradation.
+      - The response time for retrieving employee records, generating reports, and processing leave requests should be minimal.
+
+   3.3 Usability
+      - The user interface should be intuitive and user-friendly.
+      - The system should provide clear and informative error messages.
+      - The system should support multiple languages if required.
+
+4. Constraints
+   - The Online Project Management System will be developed using a web-based architecture.
+   - The system should be compatible with popular web browsers such as Chrome, Firefox, and Safari.
+   - The system should be responsive and accessible on different devices (desktops, tablets, mobile phones).
+
+5. Interfaces
+   - User Interface: The system will provide a web-based user interface for administrators, managers,stakeholders and employees to interact with.
+   - Database: The system will interact with a database to store and retrieve online project  information, ongoing project status, assigned and completion date etc.
+
+6. Glossary
+   - SRS: Software Requirements Specification
+   - UI: User Interface
+
+
+
+
